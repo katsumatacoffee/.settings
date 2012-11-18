@@ -48,13 +48,4 @@ set showtabline=2
 let g:netrw_liststyle = 3
 let g:netrw_list_hide = 'CVS,\(^\|\s\s\)\zs\.\S\+'
 
-"=== neobundle setting ==========
-filetype plugin indent off
-if has('vim_starting')
-    set runtimepath+=~/.vim/bundle/neobundle.vim/
-    call neobundle#rc(expand('~/.vim/bundle/'))
-endif
-NeoBundle 'git://github.com/Shougo/neobundle.vim.git'
-NeoBundle 'git://github.com/tpope/vim-surround.git'
-filetype plugin indent on
-"--- neobundle setting ----------
+source ~/.vim/neobundle.vimrc

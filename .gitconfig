@@ -1,0 +1,5 @@
+[user]
+	name = Daisuke Katsumata
+	email = katsumatacoffee@gmail.com
+[core]
+	editor = /usr/bin/vim
