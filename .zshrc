@@ -56,7 +56,6 @@ setopt noautoremoveslash
 #
 setopt nolistbeep
 
-
 ## Keybind configuration
 #
 # vi like keybind
