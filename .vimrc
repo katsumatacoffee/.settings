@@ -25,9 +25,9 @@ set whichwrap=b,s,h,l,[,],<,>
 set matchpairs=(:),{:},[:],<:>
 set cursorline
 
-set tabstop=4
-set softtabstop=4
-set shiftwidth=4
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
 set expandtab
 
 set list
@@ -44,6 +44,9 @@ set nowrapscan
 set hlsearch
 
 set showtabline=2
+
+"set grepformat=%f:%l:%m,%f:%l%m,%f\ \ %l%m,%f
+set grepprg=grep\ -nh
 
 let g:netrw_liststyle = 3
 let g:netrw_list_hide = 'CVS,\(^\|\s\s\)\zs\.\S\+'
