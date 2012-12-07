@@ -38,9 +38,9 @@ caption always '%?%F%{= bw}%:%{= wk}%?%2n%f%07=%t%='
 sorendition '+r .b'
 
 # Prefixキーの設定
-escape ^Tt
+escape ^Aa
 
-#ウィンドウ操作モード(^t w でウィンドウを連続的に操作できるようになる)
+#ウィンドウ操作モード(^a w でウィンドウを連続的に操作できるようになる)
 bind w eval 'echo "Operate window"' 'command -c operate'
 bind -c operate ^]  command
 bind -c operate j eval 'focus down' 'command -c operate'
@@ -84,5 +84,5 @@ bind v eval 'split -v' focus screen
 bind s eval 'split' focus screen
 bind = eval 'resize -v ='
 bind + eval 'resize -h +'
-#^t h との誤爆を防ぐために^t ^hは無効にする
+#^a h との誤爆を防ぐために^a ^hは無効にする
 bind ^h
