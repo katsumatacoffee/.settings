@@ -4,7 +4,7 @@
 #
 # LANG
 #
-export LANG=ja_JP.UTF-8
+#export LANG=ja_JP.UTF-8
 case ${UID} in
     0)
         LANG=C
@@ -181,4 +181,4 @@ esac
 
 ## load user .zshrc configuration file
 #
-[ -f ${HOME}/.zshrc.mine ] && source ${HOME}/.zshrc.mine
+[ -f ${HOME}/.zshrc.local ] && source ${HOME}/.zshrc.local
