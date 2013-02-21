@@ -51,7 +51,8 @@ set grepprg=grep\ -nh
 let g:netrw_liststyle = 3
 let g:netrw_list_hide = 'CVS,\(^\|\s\s\)\zs\.\S\+'
 
-source ~/.vim/neobundle.vimrc
+source ~/.vim/encode_ja.vim
+source ~/.vim/neobundle.vim
 
 if filereadable(expand('~/.vimrc.local'))
   source ~/.vimrc.local
