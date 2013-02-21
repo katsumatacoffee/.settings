@@ -48,6 +48,8 @@ set showtabline=2
 "set grepformat=%f:%l:%m,%f:%l%m,%f\ \ %l%m,%f
 set grepprg=grep\ -nh
 
+set tags+=~/tags
+
 let g:netrw_liststyle = 3
 let g:netrw_list_hide = 'CVS,\(^\|\s\s\)\zs\.\S\+'
 
