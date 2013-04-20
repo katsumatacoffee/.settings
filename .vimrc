@@ -16,6 +16,12 @@ hi Statement NONE
 hi Identifier NONE
 hi Type ctermfg=5
 
+set cursorline
+hi CursorLine cterm=none ctermbg=232
+
+set cursorcolumn
+hi CursorColumn ctermbg=232
+
 set laststatus=2
 set ruler
 set number
@@ -23,7 +29,6 @@ set nowrap
 set wildmenu
 set whichwrap=b,s,h,l,[,],<,>
 set matchpairs=(:),{:},[:],<:>
-set cursorline
 
 set tabstop=2
 set softtabstop=2
