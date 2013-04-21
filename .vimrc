@@ -16,6 +16,12 @@ hi Statement NONE
 hi Identifier NONE
 hi Type ctermfg=5
 
+set cursorline
+hi CursorLine cterm=none ctermbg=232
+
+set cursorcolumn
+hi CursorColumn ctermbg=232
+
 set laststatus=2
 set ruler
 set number
@@ -23,7 +29,6 @@ set nowrap
 set wildmenu
 set whichwrap=b,s,h,l,[,],<,>
 set matchpairs=(:),{:},[:],<:>
-set cursorline
 
 set tabstop=2
 set softtabstop=2
@@ -49,6 +54,8 @@ set ambiwidth=double
 
 "set grepformat=%f:%l:%m,%f:%l%m,%f\ \ %l%m,%f
 set grepprg=grep\ -nh
+
+set tags+=~/tags
 
 let g:netrw_liststyle = 3
 let g:netrw_list_hide = 'CVS,\(^\|\s\s\)\zs\.\S\+'
