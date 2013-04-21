@@ -45,6 +45,8 @@ set hlsearch
 
 set showtabline=2
 
+set ambiwidth=double
+
 "set grepformat=%f:%l:%m,%f:%l%m,%f\ \ %l%m,%f
 set grepprg=grep\ -nh
 
